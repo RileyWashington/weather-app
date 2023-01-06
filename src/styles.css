@@ -26,6 +26,9 @@ body{
   h6 {
     text-align: center;
   }
+  p{
+    margin-left:25px;
+  }
   img {
     display: block;
     width: 10px;

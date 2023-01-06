@@ -1,11 +1,11 @@
-body {
-    background: #ffebeb;
-  }
+body{
+  color:#ff5757;
+}
   h1 {
     font-size: 30px;
   }
   h2 {
-    font-size: 15px;
+    font-size: 10px;
   }
   h3 {
     font-size: 15px;
@@ -30,14 +30,8 @@ body {
     display: block;
     width: 10px;
   }
-  .container-xxl {
-    background-color: white;
-    display: block;
-    margin-top: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    margin-right: 25px;
-    margin-left: 25px;
+  .container {
+    margin: 0 auto;
   }
   .search-form {
     top: 60px;
@@ -54,6 +48,9 @@ body {
     font-size: 12px;
     margin-right: 25px;
     margin-left: 25px;
+  }
+  .container-flex{
+    padding-top: 10px;
   }
   .temp-high {
     font-weight: bolder;

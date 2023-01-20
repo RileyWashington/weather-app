@@ -29,6 +29,9 @@ body{
   p{
     margin-left:25px;
   }
+  a{
+    color: #ff5757;
+  }
   img {
     display: block;
     width: 10px;

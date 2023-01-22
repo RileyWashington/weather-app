@@ -32,12 +32,15 @@ body{
   p{
     margin-left:25px;
   }
+  ul{
+    text-align: left;
+    list-style-type: none;
+  }
   a{
     color: #ff5757;
   }
   img {
     display: block;
-    width: 10px;
     text-align: center;
   }
   .container {
@@ -46,13 +49,6 @@ body{
   .search-form {
     top: 60px;
     right: 0 auto;
-  }
-  .current-weather-icon {
-    font-size: 65px;
-    color: #ff5757;
-    justify-content: left;
-    margin-left: -150px;
-    margin-top: 10px;
   }
   .card-title {
     font-size: 12px;

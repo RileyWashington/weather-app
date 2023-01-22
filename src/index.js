@@ -23,7 +23,7 @@ function showConditions(response) {
   console.log(currentDate.getHours());
   console.log(currentDate.getMinutes());
   
-  let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+  let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday","Saturday"];
   
   let day = days[currentDate.getDay()];
   let hour = [currentDate.getHours()];

@@ -1,8 +1,9 @@
 body{
   background-color:  #f9ecec; 
+  background-image:url(https://images.unsplash.com/photo-1566995589099-45de344a6dbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1855&q=80);
 }
   h1 {
-    font-size: 30px;
+    font-size: 40px;
     text-align: left;
     color:#ff8585;
   }
@@ -43,10 +44,15 @@ body{
   }
   img {
     display: block;
-    text-align: center;
+    justify-content: center;
   }
-  button{
+  strong{
+    font-size: 40px;
     color:#ff5757;
+  }
+  .btn-outline-success{
+    color:#ff5757;
+    border-color: #ff5757;
   }
   .weather-app-wrapper {
     max-width: 600px;
@@ -63,12 +69,23 @@ body{
     max-width: 600px;
     margin: 30px auto;
   }
+  .fahrenheit{
+    color:#efc7c7;
+  }
+  .weather-forecast-temperature-max{
+    color:#ff5757;
+
+  }
+  .weather-forecast-temperature-min{
+    color:#efc7c7;
+  }
   .search-form {
-    top: 60px;
+    margin-top: 25px;
+    top: 70px;
     right: 0 auto;
   }
   .weather-description{
-    color:#c8d9eb;
+    color:#bacde2;
   }
   .card-title {
     font-size: 12px;

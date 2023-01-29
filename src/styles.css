@@ -1,17 +1,17 @@
 body{
-  color:#ff5757;
+  background-color:  #f9ecec; 
 }
   h1 {
     font-size: 30px;
     text-align: left;
+    color:#ff8585;
   }
   h2 {
-    font-size: 10px;
+    font-size: 15px;
     text-align: left;
   }
   h3 {
     font-size: 15px;
-    text-align: left;
   }
   h4 {
     font-size: 20px;
@@ -31,6 +31,8 @@ body{
   }
   p{
     margin-left:25px;
+    text-align: center;
+    font-size:15px;
   }
   ul{
     text-align: left;
@@ -43,12 +45,30 @@ body{
     display: block;
     text-align: center;
   }
-  .container {
-    margin: 0 auto;
+  button{
+    color:#ff5757;
+  }
+  .weather-app-wrapper {
+    max-width: 600px;
+    margin: 30px auto;
+  }
+  .current-weather {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 31px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  .weather-forecast{
+    max-width: 600px;
+    margin: 30px auto;
   }
   .search-form {
     top: 60px;
     right: 0 auto;
+  }
+  .weather-description{
+    color:#c8d9eb;
   }
   .card-title {
     font-size: 12px;

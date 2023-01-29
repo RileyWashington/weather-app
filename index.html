@@ -28,27 +28,25 @@
     <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
-    <div class="container p-2 mt-1">
-        <div class="card p-4 mt-4">
-          <div class="card-body">
-            <div class="container-fluid">
+    <div class="weather-app-wrapper">
+        <div class="current-weather">
               <nav class="search-form">
                 <div class="container-fluid">
                   <form class="d-flex" role="search">
                     <input
                       class="form-control me-2"
-                      type="text"
+                      type="search"
                       placeholder="Search for a city"
                       autocomplete="off"
                       autofocus="on"
                       id="search-text-input"
                     />
-                    <button class="btn btn-outline-success" type="submit">
+                    <button class="btn btn-outline-success" type="submit" value="Search">
                       Search
                     </button>
                   </form>
                 </div>
-              </nav>
+                </nav>
             <br/>
             <div class="row">
             <div class="col-2">
@@ -56,89 +54,22 @@
             </div>
 <div class="col-5">
     <ul>
-    <li><h1 id="cityElement">London</h1></li>
+    <li><h1 id="city">London</h1></li>
    <li><h2>0</h2></li>
-   <li><strong id="temperature">0</strong><h3><span class="units"><a href="#" id="celsius-link">°C</a>|<a href="#" id="fahrenheit-link">°F</a></h3></span></li>
-<li id="description">clear</li>
+   <li><strong id="temperature">0</strong><span class="units"><a href="#" id="celsius-link">°C</a>|<a href="#" id="fahrenheit-link">°F</a></span></li>
+<li class ="weather-description" id="description">clear</li>
 </ul>
 </div>
 <div class="col-4">
     <ul><li>Humidity:<span id="humidity"></span>%</li>
 <li>Wind:<span id="wind"></span>km/h</li></ul>
 </div>
-               </div>
-            </div>
-               </div>
+<div class="weather-forecast" id="forecast">forecast</div>
 </div>
 </div>
-    <div class="row">
-      <div class="col-2">
-        <div class="card">
-          <div class="card-body">
-              <i class="fa-solid fa-sun weather-icon"></i>
-            <h5 class="card-title">MON</h5>
-            <h6 class="card-subtitle mb-2 text-muted">
-              <span class="temp-high">13°</span>|<span class="temp-low">11°</span>
-            </h6>
-          </div>
-        </div>
-      </div>
-      <div class="col-2">
-        <div class="card">
-          <div class="card-body">
-              <i class="fa-solid fa-cloud-sun weather-icon"></i>
-            <h5 class="weather-forecast-date">TUES</h5>
-            <h6 class="card-subtitle mb-2 text-muted">
-              <span class="temp-high">12°</span>|<span class="temp-low">6°</span>
-            </h6>
-          </div>
-        </div>
-      </div>
-      <div class="col-2">
-        <div class="card">
-          <div class="card-body">
-              <i class="fa-solid fa-cloud-sun-rain weather-icon"></i>
-            <h5 class="weather-forecast-date">WED</h5>
-            <h6 class="card-subtitle mb-2 text-muted">
-              <span class="temp-high">9°</span>|<span class="temp-low">8°</span>
-            </h6>
-          </div>
-        </div>
-      </div>
-      <div class="col-2">
-        <div class="card">
-          <div class="card-body">
-              <i class="fa-solid fa-cloud-bolt weather-icon"></i>
-            <h5 class="weather-forecast-date">THURS</h5>
-            <h6 class="card-subtitle mb-2 text-muted">
-              <span class="temp-high">12°</span>|<span class="temp-low">10°</span>
-            </h6>
-          </div>
-        </div>
-      </div>
-      <div class="col-2">
-        <div class="card">
-          <div class="card-body">
-            <i class="fa-solid fa-cloud-showers-heavy weather-icon"></i>
-            <h5 class="weather-forecast-date">FRI</h5>
-            <h6 class="card-subtitle mb-2 text-muted">
-              <span class="temp-high">13°</span>|<span class="temp-low">7°</span>
-            </h6>
-          </div>
-        </div>
-      </div>
-      <div class="col-2">
-        <div class="card">
-          <div class="card-body">
-              <i class="fa-sharp fa-solid fa-cloud weather-icon"></i>
-            <h5 class="weather-forecast-date">SAT</h5>
-            <h6 class="card-subtitle mb-2 text-muted">
-              <span class="temp-high">10°</span>|<span class="temp-low">5°</span>
-            </h6>
-          </div>
-        </div>
-      </div>
-    </div>
+</div>
+</div>
+</div>
     <p><a href=https://github.com/RileyWashington/weather-app target="_blank">Open-source code </a>by Riley Washington</p>
     <script src="src/index.js"></script>
   </body>

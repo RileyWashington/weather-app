@@ -3,7 +3,7 @@ body{
   background-image:url(https://images.unsplash.com/photo-1566995589099-45de344a6dbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1855&q=80);
 }
   h1 {
-    font-size: 40px;
+    font-size: 35px;
     text-align: left;
     color:#ff8585;
   }
@@ -45,6 +45,9 @@ body{
   img {
     display: block;
     justify-content: center;
+    padding-top: 25px;
+    padding-right: 25px;
+    size: 70px;
   }
   strong{
     font-size: 40px;
@@ -57,17 +60,21 @@ body{
   .weather-app-wrapper {
     max-width: 600px;
     margin: 30px auto;
+    background-color:white;
+    height: 525px;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius:  999em 999em 40px 40px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
   }
   .current-weather {
-    background-color: white;
-    padding: 20px;
-    border: 1px solid white;
-    border-radius: 31px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+   margin-top: 180px;
   }
   .weather-forecast{
     max-width: 600px;
     margin: 30px auto;
+    border-radius:  31px;
+    background-color: white;
   }
   .fahrenheit{
     color:#efc7c7;
@@ -81,7 +88,7 @@ body{
   }
   .search-form {
     margin-top: 25px;
-    top: 70px;
+    top: 90px;
     right: 0 auto;
   }
   .weather-description{
